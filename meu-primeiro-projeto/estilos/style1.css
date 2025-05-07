@@ -128,7 +128,7 @@ aside h3 {
     
 }
 div {
-    padding: 1px 15px 10px 15px;
+    padding: 1px 15px 0px 15px;
     margin: auto;
     max-width: 850px;
     background-color: var(--cor1);  
@@ -148,6 +148,8 @@ div.video > iframe {
     position: absolute;
 
 }
+
+
 footer {
     background-color: var(--cor2);
     text-align: center;
