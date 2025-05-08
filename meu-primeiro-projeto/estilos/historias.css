@@ -1,33 +1,19 @@
 @charset "UTF-8";
 @font-face {
-    font-family: "bebasneue";
-    src: url("../fontes/BebasNeue-Regular.ttf");
-    
+    font-family: 'bebasneue' ;
+    src: url(../fontes/BebasNeue-Regular.ttf);
 }
 
-
-:root {
-    --fonte-titulos: "bebasneue";
-    
-}
 :root {
     --cor1: #a7c0d6;
     --cor2: #618FAE;
     --cor3: #55BAEF;
     --cor4: #2382BD;
     --cor5: #007CF4;
-
 }
 body {
-    height: 100vh;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-image: url(https://wallpapers.com/images/featured/4k-gta-5-df4ugxns4myxlojo.webp);
-    background-color: #000000;
+    background-color: black;
 }
-
 
 header {
     margin: -7px -10px;
@@ -36,8 +22,8 @@ header {
     background-image: linear-gradient(to bottom, var(--cor3),var(--cor4), var(--cor5));
     margin: auto;
     padding: 10px 0px;
-  
 }
+
 header h1 {
 
     font-size: 2.8em;
@@ -47,11 +33,13 @@ header h1 {
     color: #e7e7e7;
     font-family: var(--fonte-titulos)
 }
+
 header nav {
     text-align: center;
     padding: 0px 1px;
     margin: 5px 6px;
 }
+
 header nav a {
     margin: 10px;
     color: white;
@@ -66,7 +54,6 @@ header > nav > a:hover {
 }
 
 main {
-    border-radius: 15px 15px 0px 0px;
     padding: 0px 15px 10px 15px;
     margin: auto;
     max-width: 850px;
@@ -104,76 +91,12 @@ main p {
     text-align: justify;
 }
 
-.gtavimg {
-
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-   
-}
-.gtav {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
-}
-.criadorgtaori {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
-}
-.rockstar {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
-}
 aside {
     
     padding: 1px 15px 10px 15px;
     margin: auto;
     max-width: 850px;
     background-color: var(--cor1);
-}
-aside h3 {
-    font-family: var(--fonte-titulos);
-    color: var(--cor5);
-    text-shadow: 1px 1px 1px #454545;
-    
-}
-div {
-    border-radius: 0px 0px 15px 15px;
-    padding: 1px 15px 0px 15px;
-    margin: auto;
-    max-width: 850px;
-    background-color: var(--cor1);  
-}
-div.video {
-    padding-bottom: 56.25%;
-    position: relative;
-
-
-}
-
-div.video > iframe {
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    position: absolute;
-
-}
-
-p.proximapag{
-    background-color: white;
-    width: 20px;
-    margin: 20px auto 0 auto;
-   
-
-}
-.proximapag{
-    font-size: 15px;
-    font-weight: bolder;
-    text-align: center;
-
 }
 
 footer {
@@ -185,6 +108,15 @@ footer {
     margin: 0 auto;
 
 }
+p.pagindex > a:hover {
+    text-decoration: underline;
+    color: black;
+}
 
+p.pagindex > a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
 
-
+}
