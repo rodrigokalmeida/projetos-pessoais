@@ -7,7 +7,6 @@
 
 
 :root {
-    --fonte-destaque: "lemonmik";
     --fonte-titulos: "bebasneue";
     
 }
@@ -149,6 +148,19 @@ div.video > iframe {
 
 }
 
+p.proximapag{
+    background-color: white;
+    width: 20px;
+    margin: 20px auto 0 auto;
+   
+
+}
+.proximapag{
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+
+}
 
 footer {
     background-color: var(--cor2);
