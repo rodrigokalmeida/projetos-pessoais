@@ -66,11 +66,12 @@ header > nav > a:hover {
 }
 
 main {
-    border-radius: 15px 15px 0px 0px;
-    padding: 0px 15px 10px 15px;
-    margin: auto;
+    
+    border-radius: 15px 15px 15px 15px;
+    padding: 1px 15px 10px 15px;
     max-width: 850px;
     background-color: var(--cor1);
+    margin: 10px auto
 }
 main a:hover{
     text-decoration: underline;
@@ -81,22 +82,30 @@ main a {
     text-decoration: none;
 }
 main h1 {
-    text-shadow: 1px 1px 1px #454545;
-    color: var(--cor5);
-    text-indent: 10px;
-    padding: 10px 0px 0px 0px;
     font-family: var(--fonte-titulos);
+    border-radius: 8px 8px 8px 8px;
+    max-width: 850px;
+    background-image: linear-gradient(to right, var(--cor5), rgb(170, 170, 170) );
+    text-shadow: 1px 1px 1px #454545;
+    color: white;
+    text-indent: 10px;
+    padding: 7px 0px 0px 0px;
+    font-family: var(--fonte-titulos);
+    
 
 }
 main h2 {
-    text-shadow: 1px 1px 1px #454545;
-    color: var(--cor5);
-    text-indent: 10px;
-    padding: 10px 0px 0px 0px;
     font-family: var(--fonte-titulos);
-
-
+    border-radius: 8px 8px 8px 8px;
+    max-width: 850px;
+    background-image: linear-gradient(to right, var(--cor5), rgb(170, 170, 170) );
+    text-shadow: 1px 1px 1px #454545;
+    color: white;
+    text-indent: 10px;
+    padding: 7px 0px 0px 0px;
+    font-family: var(--fonte-titulos);
 }
+
 main p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20px;
@@ -127,7 +136,9 @@ main p {
     margin: 0 auto;
 }
 aside {
-    
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px 15px 0px 0px;
     padding: 1px 15px 10px 15px;
     margin: auto;
     max-width: 850px;
@@ -135,11 +146,21 @@ aside {
 }
 aside h3 {
     font-family: var(--fonte-titulos);
-    color: var(--cor5);
+    border-radius: 8px 8px 8px 8px;
+    max-width: 850px;
+    background-image: linear-gradient(to right, var(--cor5), rgb(170, 170, 170) );
     text-shadow: 1px 1px 1px #454545;
+    color: white;
+    text-indent: 10px;
+    padding: 7px 0px 0px 0px;
+    font-family: var(--fonte-titulos);
     
 }
+aside p {
+    text-indent: 10px;
+}
 div {
+    
     border-radius: 0px 0px 15px 15px;
     padding: 1px 15px 0px 15px;
     margin: auto;
@@ -184,6 +205,14 @@ footer {
     max-width: 880px;
     margin: 0 auto;
 
+}
+footer > p > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
 }
 
 

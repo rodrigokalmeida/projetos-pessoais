@@ -12,6 +12,7 @@
     --cor5: #007CF4;
 }
 body {
+    background-image: url(https://wallpapers.com/images/featured/4k-gta-5-df4ugxns4myxlojo.webp);
     background-color: black;
 }
 
@@ -54,6 +55,7 @@ header > nav > a:hover {
 }
 
 main {
+    border-radius: 15px 15px 0px 0px;
     padding: 0px 15px 10px 15px;
     margin: auto;
     max-width: 850px;
@@ -75,16 +77,27 @@ main h1 {
     font-family: var(--fonte-titulos);
 
 }
-main h2 {
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+ margin: 0 auto; 
+}
+aside h2 {
     text-shadow: 1px 1px 1px #454545;
     color: var(--cor5);
     text-indent: 10px;
     padding: 10px 0px 0px 0px;
     font-family: var(--fonte-titulos);
 
-
 }
-main p {
+aside p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20px;
     text-indent: 30px;
@@ -93,10 +106,22 @@ main p {
 
 aside {
     
+    border-radius: 0px 0px 15px 15px;
     padding: 1px 15px 10px 15px;
     margin: auto;
     max-width: 850px;
     background-color: var(--cor1);
+}
+abbr:hover {
+    text-decoration: underline;
+}
+abbr {
+text-decoration: none;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
 }
 
 footer {
