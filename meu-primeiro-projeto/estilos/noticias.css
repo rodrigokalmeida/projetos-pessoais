@@ -12,6 +12,11 @@
     --cor5: #007CF4;
 }
 body {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-image: url(https://wallpapers.com/images/featured/4k-gta-5-df4ugxns4myxlojo.webp);
     background-color: black;
 }
